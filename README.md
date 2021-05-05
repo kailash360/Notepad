@@ -1,5 +1,5 @@
 # Notepad
 A simple notepad using 
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
