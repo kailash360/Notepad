@@ -1,7 +1,9 @@
 .navbar {
     background-color: rgb(92, 92, 255);
     color: white;
-    margin-top: 0px;
+    margin: 0;
+    width: 98.7vw;
+    min-width: 900px;
     padding: 0.1% 0% 0.01% 0%;
 }
 
@@ -18,7 +20,7 @@
     width: 600px;
     height: 300px;
     position: relative;
-    left: 400px;
+    left: 25vw;
     margin-top: 5%;
     padding: 10px 15px 10px 5px;
     border: 1px solid grey;
@@ -76,11 +78,12 @@
 
 #note-container {
     position: relative;
-    left: 350px;
+    left: 20vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 800px;
+    min-width: 800px;
     margin-top: 25px;
 }
 
@@ -91,6 +94,8 @@
     margin: 0px 5px 10px 5px;
     border: 2px solid black;
     border-radius: 7px;
+    overflow-y: auto;
+    word-break: break-word;
     overflow-wrap: break-word;
     font-size: 20px;
     box-shadow: 2px 3px 1px 0.5px #8c8c8c
